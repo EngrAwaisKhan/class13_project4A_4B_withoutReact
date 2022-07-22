@@ -1,0 +1,36 @@
+body{
+  background: lightblue;
+}
+#clouds{
+    display:flex;
+    justify-content:space-around;
+}
+#runway {
+    width: 300px;
+    height: 100px;
+    background: black;
+    position: relative;
+    top: 320px;
+    float: right;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    color: white;
+  }
+  #runway1 {
+    width: 300px;
+    height: 100px;
+    background: black;
+    position: relative;
+    top: 320px;
+    float: left;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  #plane-div{
+    top:280px;
+    position: absolute;
+    z-index:1;
+  }
